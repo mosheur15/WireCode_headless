@@ -8,5 +8,3 @@ editor.setOptions({
 
 // turn off inline warnings for gutter width fix.
 editor.getSession().setUseWorker(false)
-
-editor.execCommand("showSettingsMenu")
