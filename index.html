@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>editor</title>
-    <link rel="stylesheet" href="./style.css">
-    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+<title>editor</title>
 </head>
 <body>
-    <div id="editor"></div>
-    <script src="./Ace/ace.js" type="text/javascript" charset="UTF-8"></script>
+    <div class="nav">
+        <div class="nav-items">
+            <i id="toggle" class="fa fa-bars fa-2x"></i>
+        </div>
+    </div>
     
-    <!-- live autocompleate requires ext-language_tools -->
+    <div id="sidebar" class="sidebar">
+        
+    </div>
+    
+    <div id="editor"></div>
+    
+    <script src="./Ace/ace.js" type="text/javascript" charset="UTF-8"></script>
     <script src="./Ace/ext-language_tools.js" type="text/javascript" charset="UTF-8"></script>
+    <script defer src="index.js"></script>
 </body>
 </html>
